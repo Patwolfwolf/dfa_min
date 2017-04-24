@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="I">
+			<x>350.000000</x>
+			<y>100.000000</y>
+			<final/>
+		</state>
+		<state id="1" name="H">
+			<x>303.545243</x>
+			<y>245.152796</y>
+		</state>
+		<state id="2" name="G">
+			<x>181.445326</x>
+			<y>336.361289</y>
+			<initial/>
+		</state>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>1</read>
+		</transition>
+	</automaton>
+</structure>
